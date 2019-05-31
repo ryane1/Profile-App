@@ -1,0 +1,15 @@
+<main>
+    <section class="profile-section">
+        <div class="imagebox">
+            <img src="https://media.licdn.com/dms/image/C4E03AQEUVfRcc4Xo7g/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=JmKCMq-M_eyTmk_HESfkCXKspfT5RGhgoHud8DY8PPw" alt="profile picture">
+        </div>
+
+        <div class="profilebox">
+            <h4 class="name">{{profile.name}}</h4>
+            <p class="contact-info">{{profile.contactInfo}}</p>
+            <p class="bio">{{profile.bio}}</p>
+
+            <button (click)="editProfile()">Edit</button>
+        </div>
+    </section>
+</main>
